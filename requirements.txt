@@ -15,7 +15,6 @@ pillow==12.0.0
 platformdirs==4.5.1
 protobuf==4.21.12
 setuptools==80.9.0
-Werkzeug==2.3.7
 wheel==0.45.1
 WTForms==3.0.1
 python-barcode==0.14.0
