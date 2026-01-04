@@ -94,7 +94,11 @@ def process_and_save_image(file, user_id):
         print(f"Error processing image: {e}")
         return None
 
-# ============================================
+@app.route('/')
+def home():
+    return "Website sudah jalan di Vercel!"
+
+#=============================================
 # UTILITY FUNCTIONS
 # ============================================
 
